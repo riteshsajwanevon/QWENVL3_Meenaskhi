@@ -1,0 +1,23 @@
+# Data kept out of the repo
+Template/
+Dataset.zip
+
+# Pipeline outputs (local runs; Colab writes to Google Drive)
+qwen_outputs/
+qwen3vl_output/
+qwen3vl_output.zip
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

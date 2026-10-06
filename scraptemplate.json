@@ -1,0 +1,106 @@
+{
+  "template": {
+    "template_id": "scrap_note",
+    "template_version": "1.0",
+    "name": "Scrap Note"
+  },
+
+  "document": {
+    "document_id": "DOC-001",
+    "page": 1
+  },
+
+  "header": {
+    "company": "MEENAKSHI POLYMERS (P) LTD HARIDWAR",
+    "month": "July-26",
+    "doc_no": "MPPL/F/STR/07",
+    "rev_no": "00",
+    "rev_date": "01-04-2017"
+  },
+
+  "table": {
+    "columns": [
+      {
+        "key": "s_no",
+        "label": "S.No",
+        "type": "integer",
+        "order": 1
+      },
+      {
+        "key": "item_code",
+        "label": "ITEM CODE",
+        "type": "string",
+        "order": 2
+      },
+      {
+        "key": "item_name",
+        "label": "ITEM NAME",
+        "type": "string",
+        "order": 3
+      },
+      {
+        "key": "unit",
+        "label": "UNIT",
+        "type": "string",
+        "order": 4
+      },
+      {
+        "key": "rejection_qty",
+        "label": "REJECTION QTY.",
+        "type": "number",
+        "order": 5
+      },
+      {
+        "key": "vendor_name",
+        "label": "VENDOR NAME",
+        "type": "string",
+        "order": 6
+      },
+      {
+        "key": "reason_remarks",
+        "label": "REASON / REMARKS",
+        "type": "string",
+        "order": 7
+      }
+    ],
+
+    "rows": [
+      {
+        "row_no": 1,
+        "cells": {
+          "s_no": 1,
+          "item_code": "WLD602503",
+          "item_name": "Carrier AAD",
+          "unit": "Nos",
+          "rejection_qty": 7,
+          "vendor_name": "IN HOUSE",
+          "reason_remarks": "Penetration cut part"
+        }
+      },
+      {
+        "row_no": 2,
+        "cells": {
+          "s_no": 2,
+          "item_code": "WLD602506",
+          "item_name": "Engine Guard",
+          "unit": "Nos",
+          "rejection_qty": 6,
+          "vendor_name": "IN HOUSE",
+          "reason_remarks": "Penetration cut part"
+        }
+      },
+      {
+        "row_no": 3,
+        "cells": {
+          "s_no": 3,
+          "item_code": "WLD602509",
+          "item_name": "Saree Guard AAH",
+          "unit": "Nos",
+          "rejection_qty": 4,
+          "vendor_name": "IN HOUSE",
+          "reason_remarks": "Penetration cut part"
+        }
+      }
+    ]
+  }
+}

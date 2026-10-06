@@ -1,0 +1,755 @@
+[
+  {
+    "template": {
+      "template_id": "supplier_lot_rejection_summary",
+      "template_version": "1.0",
+      "name": "Supplier Lot Rejection Summary"
+    },
+    "document": {
+      "document_id": "DOC-001",
+      "source_file": "Dataset/Template/SUPPLIER LOT REJECTION SUMMARY.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PRIVATE LIMITED (HARIDWAR)",
+      "title": "SUPPLIER LOT REJECTION SUMMARY",
+      "month": "JUN"
+    },
+    "table": {
+      "columns": [
+        {"key": "date", "label": "DATE", "type": "date", "order": 1},
+        {"key": "part_name", "label": "PART NAME", "type": "string", "order": 2},
+        {"key": "supplier_name", "label": "SUPPLIER NAME", "type": "string", "order": 3},
+        {"key": "lot_qty", "label": "LOT QTY.", "type": "integer", "order": 4},
+        {"key": "rework_qty", "label": "REW QTY", "type": "integer", "order": 5},
+        {"key": "rejection_qty", "label": "REJ QTY", "type": "integer", "order": 6},
+        {"key": "ok_qty", "label": "OK QTY", "type": "integer", "order": 7},
+        {"key": "problem_description", "label": "PROBLEM DESCRIPTION", "type": "string", "order": 8},
+        {"key": "action", "label": "ACTION", "type": "string", "order": 9},
+        {"key": "return_status", "label": "RETURN STATUS", "type": "string", "order": 10},
+        {"key": "capa_status", "label": "CAPA STATUS", "type": "string", "order": 11},
+        {"key": "remarks", "label": "REMARKS", "type": "string", "order": 12}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"date": "02/06/26", "part_name": "Pipe 12.70 X 1.5 X 442", "supplier_name": "UTTAM", "lot_qty": 2700, "rework_qty": 2700, "rejection_qty": 0, "ok_qty": 2700, "problem_description": "Cutting Chips", "action": "Used after Cleaning", "return_status": "Return", "capa_status": "NO", "remarks": null}},
+        {"row_no": 2, "cells": {"date": "02/06/26", "part_name": "MIG Wire 1.0 MM", "supplier_name": "MW WIRE TECH", "lot_qty": 4000, "rework_qty": 0, "rejection_qty": 250, "ok_qty": 3750, "problem_description": "Rusty", "action": "Used after Seg.", "return_status": "Return", "capa_status": "NO", "remarks": null}}
+      ]
+    },
+    "signatures": {
+      "incoming_qa": false,
+      "purchase": false,
+      "hod_qa": true,
+      "hod_plant": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "supplier_rejection",
+      "template_version": "1.0",
+      "name": "Supplier Rejection Report"
+    },
+    "document": {
+      "document_id": "DOC-002",
+      "source_file": "Dataset/Template/SUPPLIER REJECTION REPORT.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PRIVATE LIMITED (HARIDWAR)",
+      "title": "SUPPLIER REJECTION REPORT",
+      "month": "June-26"
+    },
+    "table": {
+      "columns": [
+        {"key": "date", "label": "DATE", "type": "date", "order": 1},
+        {"key": "part_name", "label": "PART NAME", "type": "string", "order": 2},
+        {"key": "supplier_name", "label": "SUPPLIER NAME", "type": "string", "order": 3},
+        {"key": "lot_qty", "label": "LOT QTY", "type": "integer", "order": 4},
+        {"key": "rejection_qty", "label": "REJECTION QTY", "type": "integer", "order": 5},
+        {"key": "ok_qty", "label": "OK QTY", "type": "integer", "order": 6},
+        {"key": "problem_description", "label": "PROBLEM DESCRIPTION", "type": "string", "order": 7},
+        {"key": "remarks", "label": "REMARKS", "type": "string", "order": 8}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"date": "03/06/26", "part_name": "Rubber Chang. Pedal Length", "supplier_name": "Ashirwad", "lot_qty": 3600, "rejection_qty": 3600, "ok_qty": 0, "problem_description": "Rusty", "remarks": null}},
+        {"row_no": 2, "cells": {"date": "08/06/26", "part_name": "LD Stretch Film", "supplier_name": "Thirthankar Wes.", "lot_qty": 569, "rejection_qty": 569, "ok_qty": 0, "problem_description": "Length variation", "remarks": null}}
+      ]
+    },
+    "signatures": {
+      "incoming_qa": false,
+      "purchase": false,
+      "hod_qa": true,
+      "hod_plant": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "supplier_rework",
+      "template_version": "1.0",
+      "name": "Supplier Rework Report"
+    },
+    "document": {
+      "document_id": "DOC-003",
+      "source_file": "Dataset/Template/SUPPLIER REWORK REPORT.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PRIVATE LIMITED (HARIDWAR)",
+      "title": "SUPPLIER REWORK REPORT",
+      "month": "June-26"
+    },
+    "table": {
+      "columns": [
+        {"key": "date", "label": "DATE", "type": "date", "order": 1},
+        {"key": "part_name", "label": "PART NAME", "type": "string", "order": 2},
+        {"key": "supplier_name", "label": "SUPPLIER NAME", "type": "string", "order": 3},
+        {"key": "lot_qty", "label": "LOT QTY", "type": "integer", "order": 4},
+        {"key": "rework_qty", "label": "REWORK QTY", "type": "integer", "order": 5},
+        {"key": "ok_qty", "label": "OK QTY", "type": "integer", "order": 6},
+        {"key": "problem_description", "label": "PROBLEM DESCRIPTION", "type": "string", "order": 7},
+        {"key": "remarks", "label": "REMARKS", "type": "string", "order": 8}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"date": "02/06/26", "part_name": "Pipe 12.70 X 1.50 X 442", "supplier_name": "Uttam", "lot_qty": 2700, "rework_qty": 2700, "ok_qty": 2700, "problem_description": "Cutting Chips", "remarks": null}},
+        {"row_no": 2, "cells": {"date": "06/06/26", "part_name": "Pipe 12.70 X 1.50 X 665", "supplier_name": "Parent", "lot_qty": 4220, "rework_qty": 4220, "ok_qty": 4220, "problem_description": "Rusty", "remarks": null}}
+      ]
+    },
+    "signatures": {
+      "incoming_qa": false,
+      "purchase": false,
+      "hod_qa": true,
+      "hod_plant": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "supplier_segregation",
+      "template_version": "1.0",
+      "name": "Supplier Segregation Report"
+    },
+    "document": {
+      "document_id": "DOC-004",
+      "source_file": "Dataset/Template/SUPPLIER SEGREGATION REPORT.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PRIVATE LIMITED (HARIDWAR)",
+      "title": "SUPPLIER SEGREGATION REPORT",
+      "month": null
+    },
+    "table": {
+      "columns": [
+        {"key": "date", "label": "DATE", "type": "date", "order": 1},
+        {"key": "part_name", "label": "PART NAME", "type": "string", "order": 2},
+        {"key": "supplier_name", "label": "SUPPLIER NAME", "type": "string", "order": 3},
+        {"key": "lot_qty", "label": "LOT QTY", "type": "integer", "order": 4},
+        {"key": "segregation_qty", "label": "SEGREGATION QTY", "type": "integer", "order": 5},
+        {"key": "ok_qty", "label": "OK QTY", "type": "integer", "order": 6},
+        {"key": "problem_description", "label": "PROBLEM DESCRIPTION", "type": "string", "order": 7},
+        {"key": "remarks", "label": "REMARKS", "type": "string", "order": 8}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"date": "02/06/26", "part_name": "MIG Wire 1.0 MM", "supplier_name": "Microwire Tech", "lot_qty": 4000, "segregation_qty": 250, "ok_qty": 3750, "problem_description": "Rusty", "remarks": null}},
+        {"row_no": 2, "cells": {"date": "03/06/26", "part_name": "Pipe 12.70 X 1.20 X 498", "supplier_name": "Parent", "lot_qty": 12274, "segregation_qty": 570, "ok_qty": 11704, "problem_description": "Length variation 497 to 501, required 498±1", "remarks": null}}
+      ]
+    },
+    "signatures": {
+      "incoming_qa": false,
+      "purchase": false,
+      "hod_qa": true,
+      "hod_plant": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "line_rejection_press_shop",
+      "template_version": "1.0",
+      "name": "Line Rejection Report - Press Shop"
+    },
+    "document": {
+      "document_id": "DOC-005",
+      "source_file": "Dataset/Template/PRESS SHOP REJECTION REPORT.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PRIVATE LIMITED HARIDWAR",
+      "title": "LINE REJECTION REPORT",
+      "shop": "PRESS SHOP",
+      "month": "JUNE 2026",
+      "doc_no": "MPPL/F/STR/07",
+      "rev_no": "00",
+      "rev_date": "00",
+      "org_date": "01.04.2017"
+    },
+    "table": {
+      "columns": [
+        {"key": "s_no", "label": "S.NO.", "type": "integer", "order": 1},
+        {"key": "item_code", "label": "ITEM CODE", "type": "string", "order": 2},
+        {"key": "material_particulars", "label": "MATERIAL PARTICULARS", "type": "string", "order": 3},
+        {"key": "unit", "label": "UNIT", "type": "string", "order": 4},
+        {"key": "rejection_qty", "label": "REJECTION QTY", "type": "integer", "order": 5},
+        {"key": "vendor_name", "label": "VENDOR NAME", "type": "string", "order": 6},
+        {"key": "reason_remarks", "label": "REASON / REMARKS", "type": "string", "order": 7}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"s_no": 1, "item_code": "SF500025", "material_particulars": "Pipe D and F (AAD)", "unit": "NOS", "rejection_qty": 13, "vendor_name": "INHOUSE", "reason_remarks": "Part damage and drill out"}},
+        {"row_no": 2, "cells": {"s_no": 2, "item_code": "SF500079", "material_particulars": "Pipe F (AAD)", "unit": "NOS", "rejection_qty": 14, "vendor_name": "INHOUSE", "reason_remarks": "Bending out and mitering drop"}},
+        {"row_no": 3, "cells": {"s_no": 3, "item_code": "SF500419", "material_particulars": "Pipe F (AAEL)", "unit": "NOS", "rejection_qty": 14, "vendor_name": "INHOUSE", "reason_remarks": "Bending out"}},
+        {"row_no": 4, "cells": {"s_no": 4, "item_code": "SF500298", "material_particulars": "BP (ACKA)", "unit": "NOS", "rejection_qty": 28, "vendor_name": "INHOUSE", "reason_remarks": "Bending out"}},
+        {"row_no": 5, "cells": {"s_no": 5, "item_code": "SF500262", "material_particulars": "Cross Pipe (ACKA)", "unit": "NOS", "rejection_qty": 2, "vendor_name": "INHOUSE", "reason_remarks": "Drill out"}},
+        {"row_no": 6, "cells": {"s_no": 6, "item_code": "SF500023", "material_particulars": "Pipe B (AAD)", "unit": "NOS", "rejection_qty": 11, "vendor_name": "INHOUSE", "reason_remarks": "Mitering short"}},
+        {"row_no": 7, "cells": {"s_no": 7, "item_code": "SF500024", "material_particulars": "Pipe C (AAD)", "unit": "NOS", "rejection_qty": 13, "vendor_name": "INHOUSE", "reason_remarks": "Mitering short"}}
+      ]
+    },
+    "signatures": {
+      "prepared_by": true,
+      "prod_head": false,
+      "qa_head": true,
+      "vp_operations": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "line_rejection_weld_shop",
+      "template_version": "1.0",
+      "name": "Line Rejection Report - Weld Shop"
+    },
+    "document": {
+      "document_id": "DOC-006",
+      "source_file": "Dataset/Template/WELD SHOP REJECTION REPORT.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PRIVATE LIMITED HARIDWAR",
+      "title": "LINE REJECTION REPORT",
+      "shop": "WELDSHOP",
+      "month": "JULY-26",
+      "doc_no": "MPPL/F/STR/07",
+      "rev_no": "00",
+      "rev_date": "00",
+      "org_date": "01.04.2017"
+    },
+    "table": {
+      "columns": [
+        {"key": "s_no", "label": "S.NO.", "type": "integer", "order": 1},
+        {"key": "item_code", "label": "ITEM CODE", "type": "string", "order": 2},
+        {"key": "material_particulars", "label": "MATERIAL PARTICULARS", "type": "string", "order": 3},
+        {"key": "unit", "label": "UNIT", "type": "string", "order": 4},
+        {"key": "rejection_qty", "label": "REJECTION QTY", "type": "integer", "order": 5},
+        {"key": "vendor_name", "label": "VENDOR NAME", "type": "string", "order": 6},
+        {"key": "reason_remarks", "label": "REASON / REMARKS", "type": "string", "order": 7}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"s_no": 1, "item_code": "SF500257", "material_particulars": "Main stand plate step", "unit": "NOS", "rejection_qty": 54, "vendor_name": "MPPL P-10", "reason_remarks": "Bending out"}},
+        {"row_no": 2, "cells": {"s_no": 2, "item_code": "RM500003", "material_particulars": "Pedal A 2.6 MM", "unit": "NOS", "rejection_qty": 55, "vendor_name": "MPPL P-10", "reason_remarks": "Pedal out due to robo torch not ok"}},
+        {"row_no": 3, "cells": {"s_no": 3, "item_code": "SF500255", "material_particulars": "Bar guide holder pedal ACK", "unit": "NOS", "rejection_qty": 181, "vendor_name": "MPPL P-10", "reason_remarks": "Bar guide profile not ok"}},
+        {"row_no": 4, "cells": {"s_no": 4, "item_code": "SF500252", "material_particulars": "Main stand forked tube L", "unit": "NOS", "rejection_qty": 290, "vendor_name": "P-10", "reason_remarks": "Hole out"}}
+      ]
+    },
+    "signatures": {
+      "prepared_by": true,
+      "prod_head": false,
+      "qa_head": true,
+      "vp_operations": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "scrap_note",
+      "template_version": "1.0",
+      "name": "Scrap Note"
+    },
+    "document": {
+      "document_id": "DOC-007",
+      "source_file": "Dataset/Template/SCRAP NOTE.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS (P) LTD HARIDWAR",
+      "title": "Scrap Note",
+      "month": "JULY-26",
+      "period": "1-04/26 - 10/7/26",
+      "doc_no": "MPPL/F/STR/07",
+      "rev_no": "00",
+      "rev_date": "00",
+      "org_date": "01-04-2017"
+    },
+    "table": {
+      "columns": [
+        {"key": "s_no", "label": "S.No.", "type": "integer", "order": 1},
+        {"key": "item_code", "label": "ITEM CODE", "type": "string", "order": 2},
+        {"key": "item_name", "label": "ITEM NAME", "type": "string", "order": 3},
+        {"key": "unit", "label": "UNIT", "type": "string", "order": 4},
+        {"key": "rejection_qty", "label": "REJECTION QTY.", "type": "integer", "order": 5},
+        {"key": "vendor_name", "label": "VENDOR. NAME", "type": "string", "order": 6},
+        {"key": "reason_remarks", "label": "REASON / REMARKS", "type": "string", "order": 7}
+      ],
+      "rows": [
+        {"row_no": 1, "cells": {"s_no": 1, "item_code": "WLD602503", "item_name": "Carrier AAD", "unit": "NOS", "rejection_qty": 7, "vendor_name": "IN HOUSE", "reason_remarks": "Penetration cut part"}},
+        {"row_no": 2, "cells": {"s_no": 2, "item_code": "WLD602500", "item_name": "Engine Guard KST", "unit": "NOS", "rejection_qty": 6, "vendor_name": "IN HOUSE", "reason_remarks": "Penetration cut part"}},
+        {"row_no": 3, "cells": {"s_no": 3, "item_code": "WLD602509", "item_name": "Saree Guard AAH", "unit": "NOS", "rejection_qty": 4, "vendor_name": "IN HOUSE", "reason_remarks": "Penetration cut part"}},
+        {"row_no": 4, "cells": {"s_no": 4, "item_code": "WLD602514", "item_name": "PGC ACK", "unit": "NOS", "rejection_qty": 5, "vendor_name": "IN HOUSE", "reason_remarks": "Penetration cut part"}},
+        {"row_no": 5, "cells": {"s_no": 5, "item_code": "WLD602539", "item_name": "Pedal Brake AAE", "unit": "NOS", "rejection_qty": 4, "vendor_name": "IN HOUSE", "reason_remarks": "Penetration cut part"}}
+      ]
+    },
+    "signatures": {
+      "prepared_by": true,
+      "qc_head": true,
+      "plating_head": false,
+      "vp_operation": false
+    }
+  },
+  {
+    "template": {
+      "template_id": "mis_plating_daily",
+      "template_version": "1.0",
+      "name": "Daily MIS Report - Plating"
+    },
+    "document": {
+      "document_id": "DOC-008",
+      "source_file": "Dataset/Template/MIS PLATING.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PVT.LTD. HARIDWAR",
+      "report": "Plating SHIFT-A",
+      "shift": "A",
+      "date": "23-07-2026",
+      "month": "July-26",
+      "doc_no": "MPPL/F/QAD/35/PC",
+      "rev_no": "02",
+      "rev_date": "02-01-2018",
+      "org_date": "01/08/2016",
+      "title": "DAILY MIS REPORT",
+      "b_grade_note": {
+        "carrier_aad": null,
+        "engine_guard": null,
+        "pedal_brake": null,
+        "handle": null,
+        "pgc": null
+      }
+    },
+    "table": {
+      "columns": [
+        {"key": "sr_no", "label": "SR.NO", "type": "integer", "order": 1},
+        {"key": "defect", "label": "DEFECT", "type": "string", "order": 2},
+        {"key": "reason", "label": "REASON", "type": "string", "order": 3},
+        {"key": "cr_aael", "label": "CR AAEL", "type": "integer", "order": 4},
+        {"key": "cr_aad", "label": "CR AAD", "type": "integer", "order": 5},
+        {"key": "engine_guard", "label": "ENGINE GUARD", "type": "integer", "order": 6},
+        {"key": "pedal_brake", "label": "PEDAL BRAKE", "type": "integer", "order": 7},
+        {"key": "pgc", "label": "PGC", "type": "integer", "order": 8},
+        {"key": "handle", "label": "HANDLE", "type": "integer", "order": 9},
+        {"key": "total", "label": "TOTAL", "type": "integer", "order": 10},
+        {"key": "renickel", "label": "RENICKEL", "type": "integer", "order": 11},
+        {"key": "rechrome", "label": "RECHROME", "type": "integer", "order": 12},
+        {"key": "buff", "label": "BUFFF", "type": "integer", "order": 13},
+        {"key": "ok", "label": "OK", "type": "integer", "order": 14},
+        {"key": "b_grade", "label": "B GRADE", "type": "integer", "order": 15},
+        {"key": "scrap", "label": "SCRAP", "type": "integer", "order": 16},
+        {"key": "grand_total", "label": "TOTAL", "type": "integer", "order": 17}
+      ],
+      "rows": [
+        {"row_no": 1, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 1, "defect": "PEEL OFF", "reason": "PLATING SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 1, "pedal_brake": 0, "pgc": 0, "handle": 1, "total": 2, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 2, "grand_total": 2}},
+        {"row_no": 2, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 2, "defect": "TOUCHING", "reason": "PLATING SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 3, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 3, "defect": "DULL PLATING", "reason": "PLATING SHOP", "cr_aael": 25, "cr_aad": 20, "engine_guard": 31, "pedal_brake": 20, "pgc": 10, "handle": 0, "total": 106, "renickel": 106, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 106}},
+        {"row_no": 4, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 4, "defect": "CLEANING FAULT", "reason": "PLATING SHOP", "cr_aael": 0, "cr_aad": 2, "engine_guard": 7, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 9, "renickel": 9, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 9}},
+        {"row_no": 5, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 5, "defect": "PLATING PITTING", "reason": "PLATING SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 6, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 6, "defect": "YELLOW", "reason": "PLATING SHOP", "cr_aael": 25, "cr_aad": 45, "engine_guard": 0, "pedal_brake": 60, "pgc": 15, "handle": 2, "total": 147, "renickel": 0, "rechrome": 147, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 147}},
+        {"row_no": 7, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 7, "defect": "ROUGHNESS", "reason": "PLATING SHOP", "cr_aael": 16, "cr_aad": 14, "engine_guard": 20, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 50, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 50, "b_grade": 0, "scrap": 0, "grand_total": 50}},
+        {"row_no": 8, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 8, "defect": "PASSIVE BUFF", "reason": "PLATING SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 9, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 9, "defect": "CHROME BUFF", "reason": "PLATING SHOP", "cr_aael": 16, "cr_aad": 12, "engine_guard": 22, "pedal_brake": 45, "pgc": 0, "handle": 0, "total": 95, "renickel": 0, "rechrome": 0, "buff": 95, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 95}},
+        {"row_no": 10, "row_type": "defect", "section": "PLATING", "cells": {"sr_no": 10, "defect": "HANDLE OD OVER SIZE", "reason": "PLATING SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 24, "total": 24, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 24, "b_grade": 0, "scrap": 0, "grand_total": 24}},
+        {"row_no": 11, "row_type": "section_total", "section": "PLATING", "cells": {"sr_no": null, "defect": "TOTAL PLATING DEFECT", "reason": null, "cr_aael": 82, "cr_aad": 93, "engine_guard": 81, "pedal_brake": 125, "pgc": 25, "handle": 27, "total": 433, "renickel": 115, "rechrome": 147, "buff": 95, "ok": 74, "b_grade": 0, "scrap": 2, "grand_total": 433}},
+        {"row_no": 12, "row_type": "section_pct", "section": "PLATING", "cells": {"sr_no": null, "defect": "TOTAL PLATING DEFECT %", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 13, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 11, "defect": "CLEANING FAULT", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 14, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 12, "defect": "SPATTER", "reason": "WELD SHOP", "cr_aael": 4, "cr_aad": 3, "engine_guard": 2, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 9, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 9, "b_grade": 0, "scrap": 0, "grand_total": 9}},
+        {"row_no": 15, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 13, "defect": "MIG WIRE", "reason": "WELD SHOP", "cr_aael": 2, "cr_aad": 1, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 3, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 3, "b_grade": 0, "scrap": 0, "grand_total": 3}},
+        {"row_no": 16, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 14, "defect": "PEDAL CUT", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 17, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 15, "defect": "TRACIBILITY MISS", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 18, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 16, "defect": "WELDING PUNCTURE", "reason": "WELD SHOP", "cr_aael": 6, "cr_aad": 4, "engine_guard": 15, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 25, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 25, "b_grade": 0, "scrap": 0, "grand_total": 25}},
+        {"row_no": 19, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 17, "defect": "WELDING PIN HOLE", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 20, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 18, "defect": "ID UNDER SIZE", "reason": "BOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 21, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 19, "defect": "WIRE SHORT", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 3, "pgc": 0, "handle": 0, "total": 3, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 3, "b_grade": 0, "scrap": 0, "grand_total": 3}},
+        {"row_no": 22, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 20, "defect": "WELDING MISS", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 23, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 21, "defect": "WELDING SHIFT", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 24, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 22, "defect": "SPATTER SOUND", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 3, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 3, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 3, "scrap": 0, "grand_total": 3}},
+        {"row_no": 25, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 23, "defect": "WELDING IN COMPLETE", "reason": "WELD SHOP", "cr_aael": 1, "cr_aad": 1, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 2, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 2, "b_grade": 0, "scrap": 0, "grand_total": 2}},
+        {"row_no": 26, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 24, "defect": "EXCESS WELDING", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 27, "row_type": "defect", "section": "WELDING", "cells": {"sr_no": 25, "defect": "GRINDING MARK", "reason": "WELD SHOP", "cr_aael": 2, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 2, "total": 4, "renickel": 2, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 2, "scrap": 0, "grand_total": 4}},
+        {"row_no": 28, "row_type": "section_total", "section": "WELDING", "cells": {"sr_no": null, "defect": "TOTAL WELDING DEFECT", "reason": null, "cr_aael": 15, "cr_aad": 9, "engine_guard": 20, "pedal_brake": 3, "pgc": 0, "handle": 2, "total": 49, "renickel": 2, "rechrome": 0, "buff": 0, "ok": 42, "b_grade": 5, "scrap": 0, "grand_total": 49}},
+        {"row_no": 29, "row_type": "section_pct", "section": "WELDING", "cells": {"sr_no": null, "defect": "TOTAL WELDING DEFECT %", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 30, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 25, "defect": "RUSTY MARK", "reason": "BOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 31, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 26, "defect": "GRAIN OPENING", "reason": "BOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 32, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 27, "defect": "PGC THREAD MISS", "reason": "BOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 33, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 28, "defect": "MATERIAL FAULT", "reason": "BOP", "cr_aael": 4, "cr_aad": 2, "engine_guard": 10, "pedal_brake": 0, "pgc": 0, "handle": 6, "total": 22, "renickel": 14, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 8, "scrap": 0, "grand_total": 22}},
+        {"row_no": 34, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 29, "defect": "MATERIAL PITTING", "reason": "BOP", "cr_aael": 2, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 2, "renickel": 2, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 2}},
+        {"row_no": 35, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 30, "defect": "PGC THREAD OPPOSITE", "reason": "BOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 36, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 31, "defect": "LINE MARK", "reason": "BOP", "cr_aael": 2, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 2, "total": 4, "renickel": 2, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 2, "scrap": 0, "grand_total": 4}},
+        {"row_no": 37, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 32, "defect": "CD BEND/STAY", "reason": "WELD SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 3, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 3, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 3, "b_grade": 0, "scrap": 0, "grand_total": 3}},
+        {"row_no": 38, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 33, "defect": "BAR LINE", "reason": "PRESS SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 39, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 34, "defect": "WRINKLE", "reason": "MACHINE SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 40, "row_type": "defect", "section": "BOP", "cells": {"sr_no": 35, "defect": "DIE MARK ON PIPE", "reason": "PRESS SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 41, "row_type": "section_total", "section": "BOP", "cells": {"sr_no": null, "defect": "TOTAL BOP DEFECT", "reason": null, "cr_aael": 8, "cr_aad": 2, "engine_guard": 13, "pedal_brake": 0, "pgc": 0, "handle": 8, "total": 31, "renickel": 18, "rechrome": 0, "buff": 0, "ok": 3, "b_grade": 10, "scrap": 0, "grand_total": 31}},
+        {"row_no": 42, "row_type": "section_pct", "section": "BOP", "cells": {"sr_no": null, "defect": "TOTAL BOP DEFECT%", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 43, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 36, "defect": "DENT & SCRATCH", "reason": "HANDLING", "cr_aael": 7, "cr_aad": 4, "engine_guard": 10, "pedal_brake": 0, "pgc": 0, "handle": 14, "total": 35, "renickel": 17, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 18, "scrap": 0, "grand_total": 35}},
+        {"row_no": 44, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 37, "defect": "BUFFING NG", "reason": "BUFFING SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 45, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 38, "defect": "WRONG STAMP", "reason": "FEBRACTION", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 46, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 39, "defect": "HANDLE PUNCH MISS", "reason": "FEBRACTION", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 47, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 40, "defect": "HANDLE STAMP MISS", "reason": "FEBRACTION", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 48, "row_type": "section_total", "section": "OTHER", "cells": {"sr_no": null, "defect": "TOTAL OTHER PLATING DEFECT", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 49, "row_type": "section_pct", "section": "OTHER", "cells": {"sr_no": null, "defect": "OTHER DEFECT %", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 50, "row_type": "defect", "section": "CENTER LESS", "cells": {"sr_no": 41, "defect": "CENTERLESS MARK", "reason": "CENTER LESS SHOP", "cr_aael": 0, "cr_aad": 0, "engine_guard": 0, "pedal_brake": 0, "pgc": 0, "handle": 0, "total": 0, "renickel": 0, "rechrome": 0, "buff": 0, "ok": 0, "b_grade": 0, "scrap": 0, "grand_total": 0}},
+        {"row_no": 51, "row_type": "section_total", "section": "CENTER LESS", "cells": {"sr_no": null, "defect": "TOTAL CENTER LESS DEFECT", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 52, "row_type": "section_pct", "section": "CENTER LESS", "cells": {"sr_no": null, "defect": "CENTER LESS DEFECT %", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 53, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "OVER ALL TOTAL DEFECT", "reason": null, "cr_aael": 112, "cr_aad": 108, "engine_guard": 124, "pedal_brake": 128, "pgc": 25, "handle": 51, "total": 548, "renickel": 152, "rechrome": 147, "buff": 95, "ok": 119, "b_grade": 33, "scrap": 2, "grand_total": 548}},
+        {"row_no": 54, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "TOTAL DEFECT %", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 55, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "TOTAL STRAIGHT PASS", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 56, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "PRODUCTION", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 57, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "REWORK PLANT PRODUCTION", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 58, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "REWORK PLANT DEFECT QTY", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 59, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "CUSTOMER RETURN DEFECT QTY", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}},
+        {"row_no": 60, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "TOTAL DEFECT QTY", "reason": null, "cr_aael": null, "cr_aad": null, "engine_guard": null, "pedal_brake": null, "pgc": null, "handle": null, "total": null, "renickel": null, "rechrome": null, "buff": null, "ok": null, "b_grade": null, "scrap": null, "grand_total": null}}
+      ]
+    },
+    "signatures": {
+      "prepared_by": false,
+      "reviewed_by": false,
+      "approved_by": true
+    }
+  },
+  {
+    "template": {
+      "template_id": "mis_powder_coating_daily",
+      "template_version": "1.0",
+      "name": "Daily MIS Report - Powder Coating"
+    },
+    "document": {
+      "document_id": "DOC-009",
+      "source_file": "Dataset/Template/DAILY MIS REPORT PCOATING.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PVT.LTD. HARIDWAR",
+      "report": null,
+      "shift": null,
+      "date": "24/7/26",
+      "month": "July-26",
+      "doc_no": "MPPL/F/QAD/35/PC",
+      "rev_no": "02",
+      "rev_date": "02-01-2018",
+      "org_date": "01/08/2016",
+      "title": "DAILY MIS REPORT"
+    },
+    "table": {
+      "columns": [
+        {"key": "sr_no", "label": "SR.NO", "type": "integer", "order": 1},
+        {"key": "defect", "label": "DEFECT", "type": "string", "order": 2},
+        {"key": "reason", "label": "REASON", "type": "string", "order": 3},
+        {"key": "sg_aah", "label": "SG -AAH", "type": "integer", "order": 4},
+        {"key": "sg_aae", "label": "SG -AAE", "type": "integer", "order": 5},
+        {"key": "sw_aah", "label": "SW (AAH)", "type": "integer", "order": 6},
+        {"key": "sp_aae", "label": "SP-AAE", "type": "integer", "order": 7},
+        {"key": "sg_aacy", "label": "SG (AACY)", "type": "integer", "order": 8},
+        {"key": "sw_aacy", "label": "SW(AACY)", "type": "integer", "order": 9},
+        {"key": "eg_kvh", "label": "EG-KVH", "type": "integer", "order": 10},
+        {"key": "cross_pipe_aael", "label": "CROSS PIPE-AAEL", "type": "integer", "order": 11},
+        {"key": "handle_abza", "label": "HANDLE ABZA", "type": "integer", "order": 12},
+        {"key": "eg_abza", "label": "EG-ABZA", "type": "integer", "order": 13},
+        {"key": "pb_abz", "label": "PB-ABZ", "type": "integer", "order": 14},
+        {"key": "pgc_ack", "label": "PGC-ACK", "type": "integer", "order": 15},
+        {"key": "pb_ack", "label": "PB-ACK", "type": "integer", "order": 16},
+        {"key": "handle_aack", "label": "HANDLE AACK", "type": "integer", "order": 17},
+        {"key": "side_stand", "label": "SIDE STAND", "type": "integer", "order": 18},
+        {"key": "sg_aael", "label": "SG -AAEL", "type": "integer", "order": 19},
+        {"key": "total", "label": "TOTAL", "type": "integer", "order": 20}
+      ],
+      "rows": [
+        {"row_no": 1, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 1, "defect": "PAINT PEEL OFF", "reason": "POWDER COATING", "sg_aah": 2, "sg_aae": 4, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 1, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 7}},
+        {"row_no": 2, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 2, "defect": "TOUCHING MARK", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 0, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 0}},
+        {"row_no": 3, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 3, "defect": "DULL PAINT", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 0, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 0}},
+        {"row_no": 4, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 4, "defect": "PAINT DRY", "reason": "POWDER COATING", "sg_aah": 18, "sg_aae": 8, "sw_aah": 0, "sp_aae": 6, "sg_aacy": 26, "sw_aacy": 0, "eg_kvh": 18, "cross_pipe_aael": 6, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 82}},
+        {"row_no": 5, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 5, "defect": "UNCOVERAGE", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 0, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 0}},
+        {"row_no": 6, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 6, "defect": "DUST MARK/RUSTY", "reason": "POWDER COATING", "sg_aah": 2, "sg_aae": 0, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 11, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 13}},
+        {"row_no": 7, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 7, "defect": "PIN HOLE", "reason": "POWDER COATING", "sg_aah": 31, "sg_aae": 28, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 131, "cross_pipe_aael": 67, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 257}},
+        {"row_no": 8, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 8, "defect": "ORANGE PEEL", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 21, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 21}},
+        {"row_no": 9, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 9, "defect": "OIL MARK", "reason": "POWDER COATING", "sg_aah": 2, "sg_aae": 8, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 3, "sw_aacy": 0, "eg_kvh": 8, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 21}},
+        {"row_no": 10, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 10, "defect": "WATER MARK", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 0, "sw_aah": 8, "sp_aae": 34, "sg_aacy": 0, "sw_aacy": 14, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 56}},
+        {"row_no": 11, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 11, "defect": "SISSING", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 0, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 0}},
+        {"row_no": 12, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 12, "defect": "OVER PAINT FLOW", "reason": "POWDER COATING", "sg_aah": 8, "sg_aae": 48, "sw_aah": 2, "sp_aae": 4, "sg_aacy": 2, "sw_aacy": 0, "eg_kvh": 14, "cross_pipe_aael": 2, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 80}},
+        {"row_no": 13, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 13, "defect": "GRINDER MARK", "reason": "POWDER COATING", "sg_aah": 0, "sg_aae": 0, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 0, "sw_aacy": 0, "eg_kvh": 0, "cross_pipe_aael": 0, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 0}},
+        {"row_no": 14, "row_type": "defect", "section": "POWDER COATING", "cells": {"sr_no": 14, "defect": "SCRATCH MARK", "reason": "POWDER COATING", "sg_aah": 5, "sg_aae": 9, "sw_aah": 0, "sp_aae": 0, "sg_aacy": 6, "sw_aacy": 0, "eg_kvh": 6, "cross_pipe_aael": 4, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 30}},
+        {"row_no": 15, "row_type": "section_total", "section": "POWDER COATING", "cells": {"sr_no": null, "defect": "TOTAL POWDER COATING DEFECT QTY", "reason": null, "sg_aah": 68, "sg_aae": 126, "sw_aah": 10, "sp_aae": 44, "sg_aacy": 38, "sw_aacy": 14, "eg_kvh": 188, "cross_pipe_aael": 79, "handle_abza": 0, "eg_abza": 0, "pb_abz": 0, "pgc_ack": 0, "pb_ack": 0, "handle_aack": 0, "side_stand": 0, "sg_aael": 0, "total": 567}},
+        {"row_no": 16, "row_type": "section_pct", "section": "POWDER COATING", "cells": {"sr_no": null, "defect": "STRAIGHT PASS", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 17, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 14, "defect": "SPATTER SOUND", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 18, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 15, "defect": "WELDING SPATTER/MIG WIRE", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 19, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 16, "defect": "PEDAL CUT", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 20, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 17, "defect": "PIVOT SHIFT", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 21, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 18, "defect": "PUNCH MISS/STAMP MISS", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 22, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 19, "defect": "PART/DRAIN HOLE MISS", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 23, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 20, "defect": "BOLT BROKEN", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 24, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 21, "defect": "STAY BEND", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 25, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 22, "defect": "U-BKT BEND", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 26, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 23, "defect": "GAUGE OUT/OD NG", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 27, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 24, "defect": "BLOW HOLE", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 28, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 25, "defect": "WELDING SHIFT", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 29, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 26, "defect": "GRINDER MARK", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 30, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 27, "defect": "EXCESS/OVER WELD", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 31, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 28, "defect": "WELDING IN COMPLETE/LEAKAGE", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 32, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 29, "defect": "WIRE SHORT", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 33, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 30, "defect": "WELDING BROKEN BAR-A", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 34, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 31, "defect": "WELDING BROKEN BAR-B", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 35, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 32, "defect": "WELDING BROKEN BAR-C", "reason": "WELD SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 36, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 33, "defect": "PIPE LINE/CRACK", "reason": "BOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 37, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 34, "defect": "MATERIAL FAULT", "reason": "BOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 38, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 35, "defect": "MATERIAL PITTING", "reason": "BOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 39, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 36, "defect": "THREAD WASH", "reason": "BOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 40, "row_type": "defect", "section": "OTHER", "cells": {"sr_no": 37, "defect": "DENT & SCRATCH", "reason": "PRESS SHOP", "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 41, "row_type": "section_total", "section": "OTHER", "cells": {"sr_no": null, "defect": "TOTAL OTHER DEFECT QTY", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 42, "row_type": "section_pct", "section": "OTHER", "cells": {"sr_no": null, "defect": "OTHER DEFECT STRAIGHT PASS", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 43, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "OVER ALL TOTAL DEFECT", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 44, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "PRODUCTION", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 45, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "OVER ALL TOTAL STRAIGHT PASS", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 46, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "REWORK PLANT PRODUCTION", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 47, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "REWORK PLANT DEFECT QTY", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 48, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "REWORK PLANT OK QTY", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 49, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "CUSTOMER RETURN DEFECT QTY", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}},
+        {"row_no": 50, "row_type": "summary", "section": null, "cells": {"sr_no": null, "defect": "TOTAL DEFECT QTY", "reason": null, "sg_aah": null, "sg_aae": null, "sw_aah": null, "sp_aae": null, "sg_aacy": null, "sw_aacy": null, "eg_kvh": null, "cross_pipe_aael": null, "handle_abza": null, "eg_abza": null, "pb_abz": null, "pgc_ack": null, "pb_ack": null, "handle_aack": null, "side_stand": null, "sg_aael": null, "total": null}}
+      ]
+    },
+    "signatures": {
+      "prepared_by": false,
+      "checked_by": true
+    }
+  },
+  {
+    "template": {
+      "template_id": "st_pass_monitoring",
+      "template_version": "1.0",
+      "name": "BS6 Model Component Straight Pass Monitoring Sheet"
+    },
+    "document": {
+      "document_id": "DOC-010",
+      "source_file": "Dataset/Template/ST. Pass weld data.pdf",
+      "page": 1,
+      "note": "same scan as weld_data/St . Pass data weld1.pdf, stored without page rotation: rotate 90 degrees before OCR"
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PVT. LTD. HARIDWAR",
+      "title": "BS6 MODEL COMPONENT STRAIGHT PASS MONITORING SHEET",
+      "month": null
+    },
+    "table": {
+      "columns": [
+        {"key": "sno", "label": "SNO", "type": "integer", "order": 1},
+        {"key": "part_name", "label": "PART NAME", "type": "string", "order": 2},
+        {"key": "part_no", "label": "PART NUMBER", "type": "string", "order": 3},
+        {"key": "model", "label": "MODEL", "type": "string", "order": 4},
+        {"key": "parameter", "label": "PARAMTER", "type": "string", "order": 5},
+        {"key": "d21_a", "label": "21 A", "type": "integer", "order": 6, "allowed_text": ["NO PLAN"]},
+        {"key": "d21_b", "label": "21 B", "type": "integer", "order": 7, "allowed_text": ["NO PLAN"]},
+        {"key": "d21_total", "label": "21 TOTAL", "type": "integer", "order": 8, "allowed_text": ["NO PLAN"]},
+        {"key": "d22_a", "label": "22 A", "type": "integer", "order": 9, "allowed_text": ["NO PLAN"]},
+        {"key": "d22_b", "label": "22 B", "type": "integer", "order": 10, "allowed_text": ["NO PLAN"]},
+        {"key": "d22_total", "label": "22 TOTAL", "type": "integer", "order": 11, "allowed_text": ["NO PLAN"]},
+        {"key": "d23_a", "label": "23 A", "type": "integer", "order": 12, "allowed_text": ["NO PLAN"]},
+        {"key": "d23_b", "label": "23 B", "type": "integer", "order": 13, "allowed_text": ["NO PLAN"]},
+        {"key": "d23_total", "label": "23 TOTAL", "type": "integer", "order": 14, "allowed_text": ["NO PLAN"]},
+        {"key": "d24_a", "label": "24 A", "type": "integer", "order": 15, "allowed_text": ["NO PLAN"]},
+        {"key": "d24_b", "label": "24 B", "type": "integer", "order": 16, "allowed_text": ["NO PLAN"]},
+        {"key": "d24_total", "label": "24 TOTAL", "type": "integer", "order": 17, "allowed_text": ["NO PLAN"]},
+        {"key": "d25_a", "label": "25 A", "type": "integer", "order": 18, "allowed_text": ["NO PLAN"]},
+        {"key": "d25_b", "label": "25 B", "type": "integer", "order": 19, "allowed_text": ["NO PLAN"]},
+        {"key": "d25_total", "label": "25 TOTAL", "type": "integer", "order": 20, "allowed_text": ["NO PLAN"]},
+        {"key": "d26_a", "label": "26 A", "type": "integer", "order": 21, "allowed_text": ["NO PLAN"]},
+        {"key": "d26_b", "label": "26 B", "type": "integer", "order": 22, "allowed_text": ["NO PLAN"]},
+        {"key": "d26_total", "label": "26 TOTAL", "type": "integer", "order": 23, "allowed_text": ["NO PLAN"]},
+        {"key": "d27_a", "label": "27 A", "type": "integer", "order": 24, "allowed_text": ["NO PLAN"]},
+        {"key": "d27_b", "label": "27 B", "type": "integer", "order": 25, "allowed_text": ["NO PLAN"]},
+        {"key": "d27_total", "label": "27 TOTAL", "type": "integer", "order": 26, "allowed_text": ["NO PLAN"]},
+        {"key": "d28_a", "label": "28 A", "type": "integer", "order": 27, "allowed_text": ["NO PLAN"]},
+        {"key": "d28_b", "label": "28 B", "type": "integer", "order": 28, "allowed_text": ["NO PLAN"]},
+        {"key": "d28_total", "label": "28 TOTAL", "type": "integer", "order": 29, "allowed_text": ["NO PLAN"]},
+        {"key": "d29_a", "label": "29 A", "type": "integer", "order": 30, "allowed_text": ["NO PLAN"]},
+        {"key": "d29_b", "label": "29 B", "type": "integer", "order": 31, "allowed_text": ["NO PLAN"]},
+        {"key": "d29_total", "label": "29 TOTAL", "type": "integer", "order": 32, "allowed_text": ["NO PLAN"]},
+        {"key": "d30_a", "label": "30 A", "type": "integer", "order": 33, "allowed_text": ["NO PLAN"]},
+        {"key": "d30_b", "label": "30 B", "type": "integer", "order": 34, "allowed_text": ["NO PLAN"]},
+        {"key": "d30_total", "label": "30 TOTAL", "type": "integer", "order": 35, "allowed_text": ["NO PLAN"]}
+      ],
+      "rows": [
+        {"row_no": 1, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "CHECKED QTY.", "d21_a": 2920, "d21_b": 1768, "d21_total": null, "d22_a": 2900, "d22_b": 2180, "d22_total": null, "d23_a": 2700, "d23_b": 2550, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 2, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "OK QTY.", "d21_a": 2419, "d21_b": 1093, "d21_total": null, "d22_a": 2283, "d22_b": 1445, "d22_total": null, "d23_a": 1983, "d23_b": 1968, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 3, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 4, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "REW. QTY.", "d21_a": 495, "d21_b": 172, "d21_total": null, "d22_a": 581, "d22_b": 735, "d22_total": null, "d23_a": 717, "d23_b": 582, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 5, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "TOTAL REWORK OK QTY", "d21_a": 495, "d21_b": 672, "d21_total": null, "d22_a": 561, "d22_b": 735, "d22_total": null, "d23_a": 717, "d23_b": 582, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 6, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": 82, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 7, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 82, "d21_b": 61, "d21_total": null, "d22_a": 78, "d22_b": 66, "d22_total": null, "d23_a": 73, "d23_b": 77, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 8, "row_type": "parameter", "section": null, "cells": {"sno": 1, "part_name": "ENGINE GUARD KST", "part_no": "50803-KST-9400", "model": "KST", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 9, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "CHECKED QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 10, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "OK QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 11, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "REJ. QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 12, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "REW. QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 13, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "TOTAL REWORK OK QTY", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 14, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 15, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 16, "row_type": "parameter", "section": null, "cells": {"sno": 2, "part_name": "CARRIER LINE-01", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "NO. OF NON CONFORMITY", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": "NO PLAN", "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 17, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "CHECKED QTY.", "d21_a": null, "d21_b": 1512, "d21_total": null, "d22_a": null, "d22_b": 1464, "d22_total": null, "d23_a": 1467, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 18, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "OK QTY.", "d21_a": null, "d21_b": 680, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 769, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 19, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 0, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 20, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "REW. QTY.", "d21_a": null, "d21_b": 834, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 698, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 21, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "TOTAL REWORK OK QTY", "d21_a": null, "d21_b": 834, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 698, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 22, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 0, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 23, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": null, "d21_b": 44, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 52, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 24, "row_type": "parameter", "section": null, "cells": {"sno": 3, "part_name": "CARRIER LINE-R", "part_no": "81200-AAD-3000", "model": "AAD", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 0, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 25, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "CHECKED QTY.", "d21_a": 1185, "d21_b": 1210, "d21_total": 1200, "d22_a": null, "d22_b": 1180, "d22_total": null, "d23_a": 1215, "d23_b": 1200, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 26, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "OK QTY.", "d21_a": 705, "d21_b": 594, "d21_total": 711, "d22_a": null, "d22_b": 547, "d22_total": null, "d23_a": 685, "d23_b": 701, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 27, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 0, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 28, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "REW. QTY.", "d21_a": 480, "d21_b": 616, "d21_total": 489, "d22_a": null, "d22_b": 633, "d22_total": null, "d23_a": 530, "d23_b": 499, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 29, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "TOTAL REWORK OK QTY", "d21_a": 480, "d21_b": 611, "d21_total": 489, "d22_a": null, "d22_b": 633, "d22_total": null, "d23_a": 530, "d23_b": 499, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 30, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 0, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 31, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 59, "d21_b": 50, "d21_total": 59, "d22_a": null, "d22_b": 48, "d22_total": null, "d23_a": 56, "d23_b": 58, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 32, "row_type": "parameter", "section": null, "cells": {"sno": 4, "part_name": "CARRIER LINE-R AAEL", "part_no": "81200A-AAE-3000", "model": "AAEL", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 0, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 33, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "CHECKED QTY.", "d21_a": 527, "d21_b": 572, "d21_total": null, "d22_a": 610, "d22_b": 689, "d22_total": null, "d23_a": 573, "d23_b": 551, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 34, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "OK QTY.", "d21_a": 363, "d21_b": 277, "d21_total": null, "d22_a": 408, "d22_b": 339, "d22_total": null, "d23_a": 339, "d23_b": 283, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 35, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 36, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "REW. QTY.", "d21_a": 164, "d21_b": 315, "d21_total": null, "d22_a": 202, "d22_b": 350, "d22_total": null, "d23_a": 234, "d23_b": 268, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 37, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "TOTAL REWORK OK QTY", "d21_a": 164, "d21_b": 315, "d21_total": null, "d22_a": 202, "d22_b": 350, "d22_total": null, "d23_a": 234, "d23_b": 268, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 38, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": 68, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 39, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": null, "d21_b": 48, "d21_total": null, "d22_a": 66, "d22_b": 48, "d22_total": null, "d23_a": 59, "d23_b": 51, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 40, "row_type": "parameter", "section": null, "cells": {"sno": 5, "part_name": "MAIN STAND", "part_no": "50500-AAE-3000", "model": "AAEE", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 41, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "CHECKED QTY.", "d21_a": 953, "d21_b": 1100, "d21_total": null, "d22_a": 1115, "d22_b": 1019, "d22_total": null, "d23_a": 1008, "d23_b": 1161, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 42, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "OK QTY.", "d21_a": 623, "d21_b": 638, "d21_total": null, "d22_a": 749, "d22_b": 493, "d22_total": null, "d23_a": 617, "d23_b": 579, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 43, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 44, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "REW. QTY.", "d21_a": 330, "d21_b": 462, "d21_total": null, "d22_a": 366, "d22_b": 525, "d22_total": null, "d23_a": 391, "d23_b": 582, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 45, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "TOTAL REWORK OK QTY", "d21_a": 330, "d21_b": 462, "d21_total": null, "d22_a": 366, "d22_b": 525, "d22_total": null, "d23_a": 391, "d23_b": 582, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 46, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 47, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 65, "d21_b": 58, "d21_total": null, "d22_a": 67, "d22_b": 48, "d22_total": null, "d23_a": 61, "d23_b": 49, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 48, "row_type": "parameter", "section": null, "cells": {"sno": 6, "part_name": "MAIN STAND", "part_no": "50500-AACK-3000", "model": "ACK", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 49, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "CHECKED QTY.", "d21_a": 1530, "d21_b": 1950, "d21_total": null, "d22_a": 1460, "d22_b": 1920, "d22_total": null, "d23_a": 1700, "d23_b": 2200, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 50, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "OK QTY.", "d21_a": 1272, "d21_b": 1532, "d21_total": null, "d22_a": 1221, "d22_b": 1565, "d22_total": null, "d23_a": 1413, "d23_b": 1638, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 51, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 52, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "REW. QTY.", "d21_a": 258, "d21_b": 418, "d21_total": null, "d22_a": 239, "d22_b": 355, "d22_total": null, "d23_a": 287, "d23_b": 562, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 53, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "TOTAL REWORK OK QTY", "d21_a": 258, "d21_b": 418, "d21_total": null, "d22_a": 239, "d22_b": 355, "d22_total": null, "d23_a": 287, "d23_b": 562, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 54, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 55, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 83, "d21_b": 78, "d21_total": null, "d22_a": 83, "d22_b": 81, "d22_total": null, "d23_a": 83, "d23_b": 74, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 56, "row_type": "parameter", "section": null, "cells": {"sno": 7, "part_name": "PEDAL BRAKE", "part_no": "50500-AAE-0000", "model": "AAEN", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}}
+      ]
+    },
+    "signatures": {}
+  },
+  {
+    "template": {
+      "template_id": "st_pass_monitoring",
+      "template_version": "1.0",
+      "name": "BS6 Model Component Straight Pass Monitoring Sheet"
+    },
+    "document": {
+      "document_id": "DOC-011",
+      "source_file": "Dataset/Template/St . Pass data weld2.pdf",
+      "page": 1
+    },
+    "header": {
+      "company": "MEENAKSHI POLYMERS PVT. LTD. HARIDWAR",
+      "title": "BS6 MODEL COMPONENT STRAIGHT PASS MONITORING SHEET",
+      "month": null
+    },
+    "table": {
+      "columns": [
+        {"key": "sno", "label": "SNO", "type": "integer", "order": 1},
+        {"key": "part_name", "label": "PART NAME", "type": "string", "order": 2},
+        {"key": "part_no", "label": "PART NUMBER", "type": "string", "order": 3},
+        {"key": "model", "label": "MODEL", "type": "string", "order": 4},
+        {"key": "parameter", "label": "PARAMTER", "type": "string", "order": 5},
+        {"key": "d21_a", "label": "21 A", "type": "integer", "order": 6, "allowed_text": ["NO PLAN"]},
+        {"key": "d21_b", "label": "21 B", "type": "integer", "order": 7, "allowed_text": ["NO PLAN"]},
+        {"key": "d21_total", "label": "21 TOTAL", "type": "integer", "order": 8, "allowed_text": ["NO PLAN"]},
+        {"key": "d22_a", "label": "22 A", "type": "integer", "order": 9, "allowed_text": ["NO PLAN"]},
+        {"key": "d22_b", "label": "22 B", "type": "integer", "order": 10, "allowed_text": ["NO PLAN"]},
+        {"key": "d22_total", "label": "22 TOTAL", "type": "integer", "order": 11, "allowed_text": ["NO PLAN"]},
+        {"key": "d23_a", "label": "23 A", "type": "integer", "order": 12, "allowed_text": ["NO PLAN"]},
+        {"key": "d23_b", "label": "23 B", "type": "integer", "order": 13, "allowed_text": ["NO PLAN"]},
+        {"key": "d23_total", "label": "23 TOTAL", "type": "integer", "order": 14, "allowed_text": ["NO PLAN"]},
+        {"key": "d24_a", "label": "24 A", "type": "integer", "order": 15, "allowed_text": ["NO PLAN"]},
+        {"key": "d24_b", "label": "24 B", "type": "integer", "order": 16, "allowed_text": ["NO PLAN"]},
+        {"key": "d24_total", "label": "24 TOTAL", "type": "integer", "order": 17, "allowed_text": ["NO PLAN"]},
+        {"key": "d25_a", "label": "25 A", "type": "integer", "order": 18, "allowed_text": ["NO PLAN"]},
+        {"key": "d25_b", "label": "25 B", "type": "integer", "order": 19, "allowed_text": ["NO PLAN"]},
+        {"key": "d25_total", "label": "25 TOTAL", "type": "integer", "order": 20, "allowed_text": ["NO PLAN"]},
+        {"key": "d26_a", "label": "26 A", "type": "integer", "order": 21, "allowed_text": ["NO PLAN"]},
+        {"key": "d26_b", "label": "26 B", "type": "integer", "order": 22, "allowed_text": ["NO PLAN"]},
+        {"key": "d26_total", "label": "26 TOTAL", "type": "integer", "order": 23, "allowed_text": ["NO PLAN"]},
+        {"key": "d27_a", "label": "27 A", "type": "integer", "order": 24, "allowed_text": ["NO PLAN"]},
+        {"key": "d27_b", "label": "27 B", "type": "integer", "order": 25, "allowed_text": ["NO PLAN"]},
+        {"key": "d27_total", "label": "27 TOTAL", "type": "integer", "order": 26, "allowed_text": ["NO PLAN"]},
+        {"key": "d28_a", "label": "28 A", "type": "integer", "order": 27, "allowed_text": ["NO PLAN"]},
+        {"key": "d28_b", "label": "28 B", "type": "integer", "order": 28, "allowed_text": ["NO PLAN"]},
+        {"key": "d28_total", "label": "28 TOTAL", "type": "integer", "order": 29, "allowed_text": ["NO PLAN"]},
+        {"key": "d29_a", "label": "29 A", "type": "integer", "order": 30, "allowed_text": ["NO PLAN"]},
+        {"key": "d29_b", "label": "29 B", "type": "integer", "order": 31, "allowed_text": ["NO PLAN"]},
+        {"key": "d29_total", "label": "29 TOTAL", "type": "integer", "order": 32, "allowed_text": ["NO PLAN"]},
+        {"key": "d30_a", "label": "30 A", "type": "integer", "order": 33, "allowed_text": ["NO PLAN"]},
+        {"key": "d30_b", "label": "30 B", "type": "integer", "order": 34, "allowed_text": ["NO PLAN"]},
+        {"key": "d30_total", "label": "30 TOTAL", "type": "integer", "order": 35, "allowed_text": ["NO PLAN"]}
+      ],
+      "rows": [
+        {"row_no": 1, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "CHECKED QTY.", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 1027, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 2, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "OK QTY.", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 990, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 3, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 4, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "REW. QTY.", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 61, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 5, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "TOTAL REWORK OK QTY", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 37, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 6, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 7, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": 96, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 8, "row_type": "parameter", "section": null, "cells": {"sno": 8, "part_name": "PEDAL GEAR CHANGE", "part_no": "2470A-ACK-0000", "model": "ACKA", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 9, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "CHECKED QTY.", "d21_a": 4295, "d21_b": 1950, "d21_total": null, "d22_a": 2855, "d22_b": 2360, "d22_total": null, "d23_a": 3385, "d23_b": 2350, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 10, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "OK QTY.", "d21_a": 4152, "d21_b": 1815, "d21_total": null, "d22_a": 2743, "d22_b": 2225, "d22_total": null, "d23_a": 3275, "d23_b": 2201, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 11, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 12, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "REW. QTY.", "d21_a": 225, "d21_b": 174, "d21_total": null, "d22_a": 160, "d22_b": 160, "d22_total": null, "d23_a": 160, "d23_b": 165, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 13, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "TOTAL REWORK OK QTY", "d21_a": 143, "d21_b": 135, "d21_total": null, "d22_a": 112, "d22_b": 135, "d22_total": null, "d23_a": 110, "d23_b": 149, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 14, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 15, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 96, "d21_b": 93, "d21_total": null, "d22_a": 96, "d22_b": 94, "d22_total": null, "d23_a": 96, "d23_b": 93, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 16, "row_type": "parameter", "section": null, "cells": {"sno": 9, "part_name": "PEDAL GEAR CHANGE", "part_no": "24701-AAE-3000", "model": "AAE", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 17, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "CHECKED QTY.", "d21_a": 1230, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 1200, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 18, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "OK QTY.", "d21_a": 1120, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 880, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 19, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "REJ. QTY.", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 20, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "REW. QTY.", "d21_a": 110, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 320, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 21, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "TOTAL REWORK OK QTY", "d21_a": 110, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 320, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 22, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 23, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 91, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 73, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 24, "row_type": "parameter", "section": null, "cells": {"sno": 10, "part_name": "STEP WOMEN", "part_no": "51104-AAH-0300", "model": null, "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 25, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "CHECKED QTY.", "d21_a": 2950, "d21_b": 2912, "d21_total": null, "d22_a": 2740, "d22_b": 3261, "d22_total": null, "d23_a": 1800, "d23_b": 3614, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 26, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "OK QTY.", "d21_a": 2555, "d21_b": 2582, "d21_total": null, "d22_a": 1920, "d22_b": 2911, "d22_total": null, "d23_a": 1572, "d23_b": 3264, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 27, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 28, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "REW. QTY.", "d21_a": 400, "d21_b": 330, "d21_total": null, "d22_a": 820, "d22_b": 300, "d22_total": null, "d23_a": 223, "d23_b": 350, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 29, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "TOTAL REWORK OK QTY", "d21_a": 400, "d21_b": 330, "d21_total": null, "d22_a": 820, "d22_b": 300, "d22_total": null, "d23_a": 233, "d23_b": 350, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 30, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 31, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 86, "d21_b": 88, "d21_total": null, "d22_a": 70, "d22_b": 89, "d22_total": null, "d23_a": 87, "d23_b": 90, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 32, "row_type": "parameter", "section": null, "cells": {"sno": 11, "part_name": "STEP PILLION", "part_no": "51104-AAE-H000", "model": null, "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 33, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "CHECKED QTY.", "d21_a": null, "d21_b": 2620, "d21_total": null, "d22_a": null, "d22_b": 2570, "d22_total": null, "d23_a": 2520, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 34, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "OK QTY.", "d21_a": null, "d21_b": 2240, "d21_total": null, "d22_a": null, "d22_b": 2176, "d22_total": null, "d23_a": 2126, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 35, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 36, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "REW. QTY.", "d21_a": null, "d21_b": 371, "d21_total": null, "d22_a": null, "d22_b": 394, "d22_total": null, "d23_a": 394, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 37, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "TOTAL REWORK OK QTY", "d21_a": null, "d21_b": 371, "d21_total": null, "d22_a": null, "d22_b": 394, "d22_total": null, "d23_a": 394, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 38, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 39, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": null, "d21_b": 85, "d21_total": null, "d22_a": null, "d22_b": 84, "d22_total": null, "d23_a": 84, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 40, "row_type": "parameter", "section": null, "cells": {"sno": 12, "part_name": "SARI GUARD AAER", "part_no": "51103-AAE-H000", "model": "AAER", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": null, "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": null, "d23_b": null, "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 41, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "CHECKED QTY.", "d21_a": 966, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 983, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 42, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "OK QTY.", "d21_a": 726, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 643, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 43, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "REJ. QTY.", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 44, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "REW. QTY.", "d21_a": 270, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 340, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 45, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "TOTAL REWORK OK QTY", "d21_a": 270, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 340, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 46, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 47, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": 75, "d21_b": "NO PLAN", "d21_total": null, "d22_a": 65, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 48, "row_type": "parameter", "section": null, "cells": {"sno": 13, "part_name": "SARI GUARD AAH", "part_no": "51103-AAH-1100", "model": "AAH", "parameter": "NO. OF NON CONFORMITY", "d21_a": null, "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": "NO PLAN", "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 49, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "CHECKED QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": 2250, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 50, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "OK QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": 1649, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 51, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "REJ. QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 52, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "REW. QTY.", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": 601, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 53, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "TOTAL REWORK OK QTY", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": 563, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 54, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "INSPECTION/CHIPPING PENDING", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 55, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "VISUAL DEFECTS STRAIGHT PASS", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": 73, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}},
+        {"row_no": 56, "row_type": "parameter", "section": null, "cells": {"sno": 14, "part_name": "CROSS PIPE", "part_no": "77215-AAD-3000", "model": "AAD", "parameter": "NO. OF NON CONFORMITY", "d21_a": "NO PLAN", "d21_b": "NO PLAN", "d21_total": null, "d22_a": null, "d22_b": null, "d22_total": null, "d23_a": "NO PLAN", "d23_b": "NO PLAN", "d23_total": null, "d24_a": null, "d24_b": null, "d24_total": null, "d25_a": null, "d25_b": null, "d25_total": null, "d26_a": null, "d26_b": null, "d26_total": null, "d27_a": null, "d27_b": null, "d27_total": null, "d28_a": null, "d28_b": null, "d28_total": null, "d29_a": null, "d29_b": null, "d29_total": null, "d30_a": null, "d30_b": null, "d30_total": null}}
+      ]
+    },
+    "signatures": {}
+  }
+]

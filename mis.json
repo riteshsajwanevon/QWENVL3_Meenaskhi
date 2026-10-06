@@ -1,0 +1,263 @@
+{
+  "template": {
+    "template_id": "daily_mis_plating",
+    "template_version": "1.0",
+    "name": "Daily MIS Report - Plating"
+  },
+
+  "document": {
+    "document_id": "DOC-001",
+    "page": 1
+  },
+
+  "header": {
+    "company": "MEENAKSHI POLYMERS PVT.LTD. HARIDWAR",
+    "report_type": "DAILY MIS REPORT",
+    "department": "PLATING",
+    "date": "2026-07-23",
+    "month": "July-26"
+  },
+
+  "table": {
+
+    "columns": [
+      {
+        "key": "sr_no",
+        "label": "SR.NO",
+        "type": "integer",
+        "order": 1
+      },
+      {
+        "key": "defect",
+        "label": "DEFECT",
+        "type": "string",
+        "order": 2
+      },
+      {
+        "key": "reason",
+        "label": "REASON",
+        "type": "string",
+        "order": 3
+      },
+      {
+        "key": "cr_aael",
+        "label": "CR AAEL",
+        "type": "number",
+        "order": 4
+      },
+      {
+        "key": "cr_aad",
+        "label": "CR AAD",
+        "type": "number",
+        "order": 5
+      },
+      {
+        "key": "engine_guard",
+        "label": "ENGINE GUARD",
+        "type": "number",
+        "order": 6
+      },
+      {
+        "key": "pedal_brake",
+        "label": "PEDAL BRAKE",
+        "type": "number",
+        "order": 7
+      },
+      {
+        "key": "pgc",
+        "label": "PGC",
+        "type": "number",
+        "order": 8
+      },
+      {
+        "key": "handle",
+        "label": "HANDLE",
+        "type": "number",
+        "order": 9
+      },
+      {
+        "key": "total",
+        "label": "TOTAL",
+        "type": "number",
+        "order": 10
+      },
+      {
+        "key": "renickel",
+        "label": "RENICKEL",
+        "type": "number",
+        "order": 11
+      },
+      {
+        "key": "rechrome",
+        "label": "RECHROME",
+        "type": "number",
+        "order": 12
+      },
+      {
+        "key": "buff",
+        "label": "BUFF",
+        "type": "number",
+        "order": 13
+      },
+      {
+        "key": "ok",
+        "label": "OK",
+        "type": "number",
+        "order": 14
+      },
+      {
+        "key": "b_grade",
+        "label": "B GRADE",
+        "type": "number",
+        "order": 15
+      },
+      {
+        "key": "scrap",
+        "label": "SCRAP",
+        "type": "number",
+        "order": 16
+      },
+      {
+        "key": "final_total",
+        "label": "TOTAL",
+        "type": "number",
+        "order": 17
+      }
+    ],
+
+    "sections": [
+
+      {
+        "section_id": "plating_shop",
+        "section_name": "PLATING SHOP",
+
+        "rows": [
+          {
+            "row_index": 0,
+            "row_type": "data",
+
+            "cells": {
+              "sr_no": 1,
+              "defect": "PEEL OFF",
+              "reason": "PLATING SHOP",
+              "cr_aael": 0,
+              "cr_aad": 0,
+              "engine_guard": 0,
+              "pedal_brake": 0,
+              "pgc": 0,
+              "handle": 0,
+              "total": 2,
+              "renickel": 0,
+              "rechrome": 0,
+              "buff": 0,
+              "ok": 0,
+              "b_grade": 0,
+              "scrap": 2,
+              "final_total": 2
+            }
+          },
+
+          {
+            "row_index": 1,
+            "row_type": "data",
+
+            "cells": {
+              "sr_no": 2,
+              "defect": "TOUCHING",
+              "reason": "PLATING SHOP",
+              "cr_aael": 0,
+              "cr_aad": 0,
+              "engine_guard": 0,
+              "pedal_brake": 0,
+              "pgc": 0,
+              "handle": 0,
+              "total": 2,
+              "renickel": 0,
+              "rechrome": 0,
+              "buff": 0,
+              "ok": 0,
+              "b_grade": 0,
+              "scrap": 2,
+              "final_total": 2
+            }
+          }
+        ],
+
+        "summary": {
+          "type": "section_total",
+          "label": "TOTAL PLATING DEFECT",
+          "values": {
+            "cr_aael": 92,
+            "cr_aad": 93,
+            "engine_guard": 83,
+            "pedal_brake": 125,
+            "pgc": 25,
+            "handle": 27,
+            "total": 453
+          }
+        }
+      },
+
+      {
+        "section_id": "weld_shop",
+        "section_name": "WELD SHOP",
+
+        "rows": [
+          {
+            "row_index": 10,
+            "row_type": "data",
+
+            "cells": {
+              "sr_no": 11,
+              "defect": "CLEANING FAULT",
+              "reason": "WELD SHOP",
+              "cr_aael": 0,
+              "cr_aad": 0,
+              "engine_guard": 0,
+              "pedal_brake": 0,
+              "pgc": 0,
+              "handle": 0,
+              "total": 0
+            }
+          }
+        ],
+
+        "summary": {
+          "type": "section_total",
+          "label": "TOTAL WELDING DEFECT"
+        }
+      },
+
+      {
+        "section_id": "bop",
+        "section_name": "BOP",
+
+        "rows": [
+          {
+            "row_index": 24,
+            "row_type": "data",
+
+            "cells": {
+              "sr_no": 25,
+              "defect": "RUSTY",
+              "reason": "BOP"
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "summary": {
+    "rows": [
+      {
+        "type": "total_defect",
+        "label": "TOTAL DEFECT"
+      },
+      {
+        "type": "total_defect_percentage",
+        "label": "TOTAL DEFECT %"
+      }
+    ]
+  }
+}
