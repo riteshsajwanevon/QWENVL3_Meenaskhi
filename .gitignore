@@ -1,5 +1,6 @@
 # Data kept out of the repo
 Template/
+Outputs/
 Dataset.zip
 
 # Pipeline outputs (local runs; Colab writes to Google Drive)
