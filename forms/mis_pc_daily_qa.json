@@ -1,0 +1,282 @@
+{
+  "form_id": "mis_pc_daily_qa",
+  "version": 1,
+  "name": "Daily MIS Report – Powder Coating (with disposition)",
+  "family": "mis",
+  "match": {
+    "title_any": [
+      "DAILY MIS REPORT"
+    ],
+    "title_none": [
+      "PLATING"
+    ],
+    "columns_any": [
+      "SR.NO",
+      "DEFECT",
+      "REASON",
+      "SG-AAH",
+      "SG-AAE",
+      "SW (AAH)",
+      "SP-AAE",
+      "EG-KVH",
+      "SIDE STAND",
+      "TOTAL",
+      "REWORK",
+      "MAJOR REWORK",
+      "OK",
+      "B GRADE",
+      "SCRAP"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "doc_no": [
+      "DOC NO"
+    ],
+    "rev_no": [
+      "REV NO"
+    ],
+    "rev_date": [
+      "REV DATE"
+    ],
+    "org_date": [
+      "ORG DATE"
+    ],
+    "report": [
+      "DAILY MIS REPORT"
+    ],
+    "shift": [
+      "SHIFT"
+    ],
+    "date": [
+      "DATE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "matrix",
+    "row_id": "sr_no",
+    "row_name_key": "defect",
+    "min_rows": 15
+  },
+  "columns": [
+    {
+      "key": "sr_no",
+      "labels": [
+        "SR.NO",
+        "S.NO"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "defect",
+      "labels": [
+        "DEFECT",
+        "DESCRIPTION OF DEFECT"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "reason",
+      "labels": [
+        "REASON"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "sg_aah",
+      "labels": [
+        "SG-AAH"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sg_aae",
+      "labels": [
+        "SG-AAE"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sw_aah",
+      "labels": [
+        "SW (AAH)"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sp_aae",
+      "labels": [
+        "SP-AAE"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sg_aacy",
+      "labels": [
+        "SG (AACY)"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sw_aacy",
+      "labels": [
+        "SW (AACY)"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "eg_kvh",
+      "labels": [
+        "EG-KVH"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "cross_pipe_aael",
+      "labels": [
+        "CROSS PIPE-AAEL"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "handle_abza",
+      "labels": [
+        "HANDLE ABZA"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "eg_abza",
+      "labels": [
+        "EG-ABZA"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "pb_abz",
+      "labels": [
+        "PB-ABZ"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "pgc_ack",
+      "labels": [
+        "PGC-ACK"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "pb_ack",
+      "labels": [
+        "PB-ACK"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "handle_aack",
+      "labels": [
+        "HANDLE AACK"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "side_stand",
+      "labels": [
+        "SIDE STAND"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sg_aael",
+      "labels": [
+        "SG-AAEL"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "total",
+      "labels": [
+        "TOTAL"
+      ],
+      "type": "int",
+      "role": "total"
+    },
+    {
+      "key": "rework",
+      "labels": [
+        "REWORK"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "major_rework",
+      "labels": [
+        "MAJOR REWORK"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "ok",
+      "labels": [
+        "OK"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "b_grade",
+      "labels": [
+        "B GRADE"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "scrap",
+      "labels": [
+        "SCRAP"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "grand_total",
+      "labels": [
+        "TOTAL"
+      ],
+      "type": "int",
+      "role": "grand_total"
+    }
+  ],
+  "rules": []
+}

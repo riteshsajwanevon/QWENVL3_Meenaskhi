@@ -1,0 +1,246 @@
+{
+  "form_id": "weld_qg2_checksheet",
+  "version": 1,
+  "name": "QGFI Check Sheet – Quality Gate-2 (Weld Shop)",
+  "match": {
+    "title_any": [
+      "QGFI CHECK SHEET",
+      "QUALITY GATE-2",
+      "QUALITY GATE 2",
+      "QGFI-WELD SHOP"
+    ],
+    "title_none": [
+      "POWDER COATING"
+    ],
+    "doc_no_any": [
+      "QG-02",
+      "QG-2",
+      "/39/"
+    ],
+    "columns_any": [
+      "S.NO",
+      "OPERATION NAME",
+      "DEFECT'S DESCRIPTION",
+      "DESCRIPTION",
+      "WELDER NAME",
+      "7 TO 9",
+      "9 TO 11",
+      "11 TO 1",
+      "1 TO 3",
+      "3 TO 5",
+      "5 TO 7",
+      "TOTAL",
+      "OBSERVATION"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "doc_no": [
+      "DOC NO"
+    ],
+    "part_name": [
+      "PART NAME"
+    ],
+    "shift": [
+      "SHIFT"
+    ],
+    "line": [
+      "LINE",
+      "LINE NO"
+    ],
+    "date": [
+      "DATE"
+    ]
+  },
+  "layout": {
+    "kind": "matrix",
+    "row_id": "sr_no",
+    "row_name_key": "defect",
+    "row_strip_cols": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "min_rows": 15,
+    "header_terms": [
+      "S NO",
+      "SNO",
+      "DEFECT",
+      "DESCRIPTION",
+      "OPERATION"
+    ],
+    "footer_terms": [
+      "NAME INSPECTOR",
+      "NAME & SIGNATURE",
+      "PREPARED BY",
+      "VERIFIED BY",
+      "APPROVED BY"
+    ],
+    "row_sum_on_summary": true
+  },
+  "columns": [
+    {
+      "key": "sr_no",
+      "labels": [
+        "S.No",
+        "S.NO"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "operation",
+      "labels": [
+        "OPERATION NAME"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "defect",
+      "labels": [
+        "DEFECT'S DESCRIPTION",
+        "DESCRIPTION"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "welder_name",
+      "labels": [
+        "OPERATOR /WELDER NAME",
+        "WELDER NAME"
+      ],
+      "type": "text",
+      "role": "text"
+    },
+    {
+      "key": "slot_07_09",
+      "labels": [
+        "7 TO 9"
+      ],
+      "type": "int",
+      "role": "part",
+      "group": "OBSERVATION",
+      "cell_format": "tally_with_count"
+    },
+    {
+      "key": "slot_09_11",
+      "labels": [
+        "9 TO 11"
+      ],
+      "type": "int",
+      "role": "part",
+      "group": "OBSERVATION",
+      "cell_format": "tally_with_count"
+    },
+    {
+      "key": "slot_11_01",
+      "labels": [
+        "11 TO 1"
+      ],
+      "type": "int",
+      "role": "part",
+      "group": "OBSERVATION",
+      "cell_format": "tally_with_count"
+    },
+    {
+      "key": "slot_01_03",
+      "labels": [
+        "1 TO 3"
+      ],
+      "type": "int",
+      "role": "part",
+      "group": "OBSERVATION",
+      "cell_format": "tally_with_count"
+    },
+    {
+      "key": "slot_03_05",
+      "labels": [
+        "3 TO 5"
+      ],
+      "type": "int",
+      "role": "part",
+      "group": "OBSERVATION",
+      "cell_format": "tally_with_count"
+    },
+    {
+      "key": "slot_05_07",
+      "labels": [
+        "5 TO 7"
+      ],
+      "type": "int",
+      "role": "part",
+      "group": "OBSERVATION",
+      "cell_format": "tally_with_count"
+    },
+    {
+      "key": "total",
+      "labels": [
+        "TOTAL"
+      ],
+      "type": "int",
+      "role": "total"
+    }
+  ],
+  "summary_rows": [
+    {
+      "key": "total_production",
+      "labels": [
+        "TOTAL PRODUCTION"
+      ]
+    },
+    {
+      "key": "ok_qty",
+      "labels": [
+        "OK QTY (FIRST TIME RIGHT)",
+        "OK QTY"
+      ]
+    },
+    {
+      "key": "defect_qty",
+      "labels": [
+        "DEFECT QTY (REJECTION)",
+        "DEFECT QTY"
+      ]
+    },
+    {
+      "key": "rework_ok",
+      "labels": [
+        "REWORK OK"
+      ]
+    },
+    {
+      "key": "straight_pass",
+      "labels": [
+        "STRAIGHT PASS"
+      ]
+    },
+    {
+      "key": "scrap_qty",
+      "labels": [
+        "SCRAP QTY"
+      ]
+    },
+    {
+      "key": "pending_qty",
+      "labels": [
+        "INSPECTION/CHIPPING PENDING QTY"
+      ]
+    }
+  ],
+  "summary_rules": [
+    "total_production == ok_qty + defect_qty"
+  ],
+  "rules": []
+}

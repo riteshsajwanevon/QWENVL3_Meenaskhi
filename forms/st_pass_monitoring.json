@@ -1,0 +1,81 @@
+{
+  "form_id": "st_pass_monitoring",
+  "version": 1,
+  "name": "BS6 Model Component Straight Pass Monitoring Sheet",
+  "match": {
+    "title_any": [
+      "COMPONENT STRAIGHT PASS MONITORING",
+      "STRAIGHT PASS MONITORING SHEET"
+    ],
+    "columns_any": [
+      "SNO",
+      "PART NAME",
+      "PART NUMBER",
+      "MODEL",
+      "PARAMTER",
+      "A",
+      "B",
+      "TOTAL"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "block_grid",
+    "header_bands": 2,
+    "days_per_sheet": 10,
+    "shifts": [
+      "A",
+      "B",
+      "TOTAL"
+    ],
+    "params": [
+      {
+        "key": "checked_qty",
+        "label": "CHECKED QTY."
+      },
+      {
+        "key": "ok_qty",
+        "label": "OK QTY."
+      },
+      {
+        "key": "rej_qty",
+        "label": "REJ. QTY."
+      },
+      {
+        "key": "rew_qty",
+        "label": "REW. QTY."
+      },
+      {
+        "key": "total_rework_ok_qty",
+        "label": "TOTAL REWORK OK QTY"
+      },
+      {
+        "key": "inspection_chipping_pending",
+        "label": "INSPECTION/CHIPPING PENDING"
+      },
+      {
+        "key": "visual_defects_straight_pass_pct",
+        "label": "VISUAL DEFECTS STRAIGHT PASS (%)"
+      },
+      {
+        "key": "non_conformity_count",
+        "label": "NO. OF NON CONFORMITY"
+      }
+    ]
+  },
+  "columns": [],
+  "rules": [
+    "checked_qty == ok_qty + rew_qty + rej_qty",
+    "abs(visual_defects_straight_pass_pct - 100 * ok_qty / checked_qty) <= 2"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "form_id": "supplier_rejection",
+  "version": 1,
+  "name": "Supplier Rejection Report",
+  "family": "supplier",
+  "match": {
+    "title_any": [
+      "SUPPLIER REJECTION REPORT"
+    ],
+    "title_none": [
+      "LOT REJECTION",
+      "LINE REJECTION",
+      "PENETRATION"
+    ],
+    "columns_any": [
+      "DATE",
+      "PART NAME",
+      "SUPPLIER NAME",
+      "LOT QTY",
+      "REJECTION QTY",
+      "OK QTY",
+      "PROBLEM DESCRIPTION",
+      "REMARKS"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "record",
+    "header_rows": 3,
+    "footer_rows": 1,
+    "expected_col_lines": 9
+  },
+  "columns": [
+    {
+      "key": "date",
+      "labels": [
+        "DATE"
+      ],
+      "type": "date",
+      "required": true
+    },
+    {
+      "key": "part_name",
+      "labels": [
+        "PART NAME"
+      ],
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "supplier_name",
+      "labels": [
+        "SUPPLIER NAME"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "lot_qty",
+      "labels": [
+        "LOT QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "rejection_qty",
+      "labels": [
+        "REJECTION QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "ok_qty",
+      "labels": [
+        "OK QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "problem_description",
+      "labels": [
+        "PROBLEM DESCRIPTION"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "remarks",
+      "labels": [
+        "REMARKS"
+      ],
+      "type": "text"
+    }
+  ],
+  "rules": [
+    "lot_qty == rejection_qty + ok_qty"
+  ]
+}

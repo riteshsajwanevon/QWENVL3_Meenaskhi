@@ -1,0 +1,221 @@
+{
+  "form_id": "mis_fi_visual_pc",
+  "version": 1,
+  "name": "FI Visual Inspection 100% (Powder Coating)",
+  "family": "mis",
+  "match": {
+    "title_any": [
+      "FI VISUAL INSPECTION"
+    ],
+    "columns_any": [
+      "S.NO.",
+      "DESCRIPTION OF DEFECT",
+      "SARI GUARD-AAH",
+      "SARI GUARD-AAE",
+      "STEP WOMEN-AAH",
+      "ENGINE GUARD-KVH",
+      "CROSS PIPE AAEL",
+      "TOTAL",
+      "MINOR",
+      "MAJOR",
+      "SCRAP",
+      "B-GRADE/GP"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "doc_no": [
+      "DOC NO"
+    ],
+    "rev_no": [
+      "REV NO"
+    ],
+    "rev_date": [
+      "REV DATE"
+    ],
+    "org_date": [
+      "ORG DATE"
+    ],
+    "report": [
+      "DAILY MIS REPORT"
+    ],
+    "shift": [
+      "SHIFT"
+    ],
+    "date": [
+      "DATE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "matrix",
+    "row_id": "sr_no",
+    "row_name_key": "defect",
+    "min_rows": 15
+  },
+  "columns": [
+    {
+      "key": "sr_no",
+      "labels": [
+        "S.NO."
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "defect",
+      "labels": [
+        "DESCRIPTION OF DEFECT"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "sari_guard_aah",
+      "labels": [
+        "SARI GUARD-AAH"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sari_guard_aae",
+      "labels": [
+        "SARI GUARD-AAE"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "step_women_aah",
+      "labels": [
+        "STEP WOMEN-AAH"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "step_pillion_aae",
+      "labels": [
+        "STEP PILLION-AAE"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "sari_guard_aacy",
+      "labels": [
+        "SARI GUARD-AACY"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "step_women_aacy",
+      "labels": [
+        "STEP WOMEN AACY"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "engine_guard_kvh",
+      "labels": [
+        "ENGINE GUARD-KVH"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "cross_pipe_aael",
+      "labels": [
+        "CROSS PIPE AAEL"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "handle_abza",
+      "labels": [
+        "HANDEL ABZA"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "engine_guard_abza_painted",
+      "labels": [
+        "ENGINE GUARD-ABZA PAINTED"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "pedal_brake_abza",
+      "labels": [
+        "PEDAL BRAKE-ABZA"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "side_stand_abza",
+      "labels": [
+        "SIDE STAND ABZA"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "total",
+      "labels": [
+        "TOTAL"
+      ],
+      "type": "int",
+      "role": "total"
+    },
+    {
+      "key": "for_rework_minor",
+      "labels": [
+        "MINOR"
+      ],
+      "type": "int",
+      "role": "disposition",
+      "group": "FOR REWORK"
+    },
+    {
+      "key": "for_rework_major",
+      "labels": [
+        "MAJOR"
+      ],
+      "type": "int",
+      "role": "disposition",
+      "group": "FOR REWORK"
+    },
+    {
+      "key": "rejection_scrap",
+      "labels": [
+        "SCRAP"
+      ],
+      "type": "int",
+      "role": "disposition",
+      "group": "REJECTION"
+    },
+    {
+      "key": "b_grade_gp",
+      "labels": [
+        "B-GRADE/GP"
+      ],
+      "type": "int",
+      "role": "disposition"
+    }
+  ],
+  "rules": []
+}

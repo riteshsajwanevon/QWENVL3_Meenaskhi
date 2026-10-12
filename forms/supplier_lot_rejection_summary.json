@@ -1,0 +1,136 @@
+{
+  "form_id": "supplier_lot_rejection_summary",
+  "version": 1,
+  "name": "Supplier Lot Rejection Summary",
+  "family": "supplier",
+  "match": {
+    "title_any": [
+      "SUPPLIER LOT REJECTION SUMMARY",
+      "LOT REJECTION SUMMARY"
+    ],
+    "columns_any": [
+      "DATE",
+      "PART NAME",
+      "SUPPLIER NAME",
+      "LOT QTY",
+      "REW QTY",
+      "REJ QTY",
+      "OK QTY",
+      "PROBLEM DESCRIPTION",
+      "ACTION",
+      "RETURN STATUS",
+      "CAPA STATUS",
+      "REMARKS"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "record",
+    "header_rows": 3,
+    "footer_rows": 1,
+    "expected_col_lines": 13
+  },
+  "columns": [
+    {
+      "key": "date",
+      "labels": [
+        "DATE"
+      ],
+      "type": "date",
+      "required": true
+    },
+    {
+      "key": "part_name",
+      "labels": [
+        "PART NAME"
+      ],
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "supplier_name",
+      "labels": [
+        "SUPPLIER NAME"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "lot_qty",
+      "labels": [
+        "LOT QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "rework_qty",
+      "labels": [
+        "REW QTY"
+      ],
+      "type": "int"
+    },
+    {
+      "key": "rejection_qty",
+      "labels": [
+        "REJ QTY"
+      ],
+      "type": "int"
+    },
+    {
+      "key": "ok_qty",
+      "labels": [
+        "OK QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "problem_description",
+      "labels": [
+        "PROBLEM DESCRIPTION"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "action",
+      "labels": [
+        "ACTION"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "return_status",
+      "labels": [
+        "RETURN STATUS"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "capa_status",
+      "labels": [
+        "CAPA STATUS"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "remarks",
+      "labels": [
+        "REMARKS"
+      ],
+      "type": "text"
+    }
+  ],
+  "rules": [
+    "lot_qty == rejection_qty + ok_qty"
+  ]
+}

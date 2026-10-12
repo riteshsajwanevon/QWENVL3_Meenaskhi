@@ -1,0 +1,166 @@
+{
+  "form_id": "weld_rework_rejection",
+  "version": 1,
+  "name": "Weld Shop Rework & Rejection Sheet",
+  "match": {
+    "title_any": [
+      "WELDSHOP REWORK & REJECTION SHEET",
+      "REWORK & REJECTION SHEET",
+      "REWORK AND REJECTION SHEET"
+    ],
+    "columns_any": [
+      "LINE / PART NAME",
+      "REWORK",
+      "GRINDER",
+      "CUTTING",
+      "REJECTION",
+      "CHIPPING/ FINAL PENDING",
+      "QUALITY PENDING",
+      "QUALITY HOLD",
+      "INSPECTOR SIGH"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "date": [
+      "DATE"
+    ],
+    "shift": [
+      "SHIFT"
+    ]
+  },
+  "layout": {
+    "kind": "matrix",
+    "row_id": "label",
+    "row_name_key": "part_name",
+    "row_strip_cols": [
+      0,
+      1
+    ],
+    "min_rows": 15,
+    "header_terms": [
+      "LINE",
+      "PART NAME"
+    ],
+    "require_total": false,
+    "allow_gaps": true,
+    "blocks": {
+      "split_labels": [
+        "LINE / PART NAME"
+      ],
+      "names": [
+        "A",
+        "B"
+      ]
+    },
+    "fixed_rows": [
+      "Carrier AAD Manual",
+      "Carrier AAD Robot",
+      "Carrier AAEL Robot",
+      "Engine Guard KST",
+      "SARI GUARD AAH",
+      "SARI GUARD AAE",
+      "SARI GUARD ACY",
+      "STEP PILLION AAE/KCC",
+      "STEP WOMEN AAH",
+      "PGC AAE",
+      "PGC ACKA",
+      "BRAKE PADEL AAEN",
+      "Main Stand AAE",
+      "Main Stand ACKA",
+      "PEDAL BRAKE ABZA DD",
+      "PEDAL BRAKE ABZA SD",
+      "Cross Pipe AAD",
+      "Cross Pipe AAEL",
+      "SIDE STAND AAF",
+      "SIDE STAND ABZA",
+      "ENGINE GUARD ABZA"
+    ],
+    "footer_terms": [
+      "QA SIGN",
+      "PROD SIGN",
+      "PROD. SIGN"
+    ]
+  },
+  "columns": [
+    {
+      "key": "part_name",
+      "labels": [
+        "LINE / PART NAME"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "rework",
+      "labels": [
+        "REWORK"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "grinder",
+      "labels": [
+        "GRINDER"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "cutting",
+      "labels": [
+        "CUTTING"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "rejection",
+      "labels": [
+        "REJECTION"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "chipping_final_pending",
+      "labels": [
+        "CHIPPING/ FINAL PENDING"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "quality_pending",
+      "labels": [
+        "QUALITY PENDING"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "quality_hold",
+      "labels": [
+        "QUALITY HOLD"
+      ],
+      "type": "qty_text",
+      "role": "value"
+    },
+    {
+      "key": "inspector_sign",
+      "labels": [
+        "INSPECTOR SIGH",
+        "INSPECTOR SIGN"
+      ],
+      "type": "text",
+      "role": "ignore"
+    }
+  ],
+  "rules": []
+}

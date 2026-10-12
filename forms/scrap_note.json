@@ -1,0 +1,106 @@
+{
+  "form_id": "scrap_note",
+  "version": 1,
+  "name": "Scrap Note",
+  "match": {
+    "title_any": [
+      "SCRAP NOTE"
+    ],
+    "columns_any": [
+      "S.NO",
+      "ITEM CODE",
+      "ITEM NAME",
+      "UNIT",
+      "REJECTION QTY",
+      "VENDOR NAME",
+      "REASON / REMARKS"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "doc_no": [
+      "DOC NO"
+    ],
+    "rev_no": [
+      "REV NO"
+    ],
+    "rev_date": [
+      "REV DATE"
+    ],
+    "org_date": [
+      "ORG DATE"
+    ],
+    "month": [
+      "MONTH"
+    ],
+    "period": [
+      "PERIOD"
+    ]
+  },
+  "layout": {
+    "kind": "record",
+    "header_rows": 4,
+    "footer_rows": 1,
+    "expected_col_lines": 8
+  },
+  "columns": [
+    {
+      "key": "s_no",
+      "labels": [
+        "S.No."
+      ],
+      "type": "int"
+    },
+    {
+      "key": "item_code",
+      "labels": [
+        "ITEM CODE"
+      ],
+      "type": "text",
+      "pattern": "WLD\\d{6}",
+      "required": true
+    },
+    {
+      "key": "item_name",
+      "labels": [
+        "ITEM NAME"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "unit",
+      "labels": [
+        "UNIT"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "rejection_qty",
+      "labels": [
+        "REJECTION QTY."
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "vendor_name",
+      "labels": [
+        "VENDOR. NAME"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "reason_remarks",
+      "labels": [
+        "REASON / REMARKS"
+      ],
+      "type": "text"
+    }
+  ],
+  "rules": []
+}

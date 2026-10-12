@@ -1,0 +1,213 @@
+{
+  "form_id": "mis_plating",
+  "version": 1,
+  "name": "Daily MIS Report – Plating",
+  "family": "mis",
+  "match": {
+    "title_any": [
+      "DAILY MIS REPORT"
+    ],
+    "doc_no_any": [
+      "/PL"
+    ],
+    "columns_any": [
+      "SR.NO",
+      "DEFECT",
+      "REASON",
+      "CR AAEL",
+      "CR AAD",
+      "EG-KST",
+      "PB-AAE",
+      "PGC",
+      "HANDLE",
+      "TOTAL",
+      "RENICKEL",
+      "RECHROME",
+      "BUFF",
+      "OK",
+      "B GRADE",
+      "SCRAP"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "doc_no": [
+      "DOC NO"
+    ],
+    "rev_no": [
+      "REV NO"
+    ],
+    "rev_date": [
+      "REV DATE"
+    ],
+    "org_date": [
+      "ORG DATE"
+    ],
+    "report": [
+      "DAILY MIS REPORT"
+    ],
+    "shift": [
+      "SHIFT"
+    ],
+    "date": [
+      "DATE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "matrix",
+    "row_id": "sr_no",
+    "row_name_key": "defect",
+    "min_rows": 15
+  },
+  "columns": [
+    {
+      "key": "sr_no",
+      "labels": [
+        "SR.NO",
+        "S.NO"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "defect",
+      "labels": [
+        "DEFECT",
+        "DESCRIPTION OF DEFECT"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "reason",
+      "labels": [
+        "REASON"
+      ],
+      "type": "text",
+      "role": "label"
+    },
+    {
+      "key": "cr_aael",
+      "labels": [
+        "CR AAEL"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "cr_aad",
+      "labels": [
+        "CR AAD"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "engine_guard",
+      "labels": [
+        "EG-KST",
+        "ENGINE GUARD"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "pedal_brake",
+      "labels": [
+        "PB-AAE",
+        "PEDAL BRAKE"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "pgc",
+      "labels": [
+        "PGC"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "handle",
+      "labels": [
+        "HANDLE"
+      ],
+      "type": "int",
+      "role": "part"
+    },
+    {
+      "key": "total",
+      "labels": [
+        "TOTAL"
+      ],
+      "type": "int",
+      "role": "total"
+    },
+    {
+      "key": "renickel",
+      "labels": [
+        "RENICKEL"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "rechrome",
+      "labels": [
+        "RECHROME"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "buff",
+      "labels": [
+        "BUFF"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "ok",
+      "labels": [
+        "OK"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "b_grade",
+      "labels": [
+        "B GRADE"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "scrap",
+      "labels": [
+        "SCRAP"
+      ],
+      "type": "int",
+      "role": "disposition"
+    },
+    {
+      "key": "grand_total",
+      "labels": [
+        "TOTAL"
+      ],
+      "type": "int",
+      "role": "grand_total"
+    }
+  ],
+  "rules": []
+}

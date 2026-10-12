@@ -1,0 +1,105 @@
+{
+  "form_id": "supplier_segregation",
+  "version": 1,
+  "name": "Supplier Segregation Report",
+  "family": "supplier",
+  "match": {
+    "title_any": [
+      "SUPPLIER SEGREGATION REPORT",
+      "SEGREGATION REPORT"
+    ],
+    "columns_any": [
+      "DATE",
+      "PART NAME",
+      "SUPPLIER NAME",
+      "LOT QTY",
+      "SEGREGATION QTY",
+      "OK QTY",
+      "PROBLEM DESCRIPTION",
+      "REMARKS"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "record",
+    "header_rows": 3,
+    "footer_rows": 1,
+    "expected_col_lines": 9
+  },
+  "columns": [
+    {
+      "key": "date",
+      "labels": [
+        "DATE"
+      ],
+      "type": "date",
+      "required": true
+    },
+    {
+      "key": "part_name",
+      "labels": [
+        "PART NAME"
+      ],
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "supplier_name",
+      "labels": [
+        "SUPPLIER NAME"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "lot_qty",
+      "labels": [
+        "LOT QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "segregation_qty",
+      "labels": [
+        "SEGREGATION QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "ok_qty",
+      "labels": [
+        "OK QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "problem_description",
+      "labels": [
+        "PROBLEM DESCRIPTION"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "remarks",
+      "labels": [
+        "REMARKS"
+      ],
+      "type": "text"
+    }
+  ],
+  "rules": [
+    "lot_qty == segregation_qty + ok_qty"
+  ]
+}

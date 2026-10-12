@@ -1,0 +1,112 @@
+{
+  "form_id": "line_rejection",
+  "version": 1,
+  "name": "Line Rejection Report",
+  "match": {
+    "title_any": [
+      "LINE REJECTION REPORT",
+      "REJECTION REPORT PENETRATION",
+      "PENETRATION"
+    ],
+    "title_none": [
+      "SUPPLIER"
+    ],
+    "columns_any": [
+      "S.NO",
+      "ITEM CODE",
+      "MATERIAL PARTICULARS",
+      "UNIT",
+      "REJECTION QTY",
+      "VENDOR NAME",
+      "REASON / REMARKS"
+    ]
+  },
+  "header": {
+    "company": [
+      "COMPANY"
+    ],
+    "title": [
+      "TITLE"
+    ],
+    "doc_no": [
+      "DOC NO"
+    ],
+    "rev_no": [
+      "REV NO"
+    ],
+    "rev_date": [
+      "REV DATE"
+    ],
+    "org_date": [
+      "ORG DATE"
+    ],
+    "shop": [
+      "SHOP",
+      "PENETRATION"
+    ],
+    "month": [
+      "MONTH"
+    ]
+  },
+  "layout": {
+    "kind": "record",
+    "header_rows": 5,
+    "footer_rows": 1,
+    "expected_col_lines": 8
+  },
+  "columns": [
+    {
+      "key": "s_no",
+      "labels": [
+        "S.NO."
+      ],
+      "type": "int"
+    },
+    {
+      "key": "item_code",
+      "labels": [
+        "ITEM CODE"
+      ],
+      "type": "text",
+      "pattern": "[A-Z]{2,3}\\d{6}",
+      "required": true
+    },
+    {
+      "key": "material_particulars",
+      "labels": [
+        "MATERIAL PARTICULARS"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "unit",
+      "labels": [
+        "UNIT"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "rejection_qty",
+      "labels": [
+        "REJECTION QTY"
+      ],
+      "type": "int",
+      "required": true
+    },
+    {
+      "key": "vendor_name",
+      "labels": [
+        "VENDOR NAME"
+      ],
+      "type": "text"
+    },
+    {
+      "key": "reason_remarks",
+      "labels": [
+        "REASON / REMARKS"
+      ],
+      "type": "text"
+    }
+  ],
+  "rules": []
+}
